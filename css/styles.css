@@ -46,7 +46,7 @@ p {
     width: 60rem;
     background-color: var(--blanco);
     border-radius: 1rem;
-    margin-top: 15rem;
+    margin-top: 22rem;
 }
 
 .imagen {
@@ -69,10 +69,12 @@ p {
     letter-spacing: 5px;
     color: var(--azulGrisOscuro);
     margin-bottom: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .card__titulo {
     font-family: var(--fuenteSecundaria);
+    font-size: 3.5rem;
 }
 
 .card__parrafo {
@@ -88,7 +90,7 @@ p {
 
 .card__precio--descuento {
     color: var(--cyanOscuro);
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     font-family: var(--fuenteSecundaria);
 }
@@ -117,7 +119,7 @@ p {
     .card{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: 2fr 3fr;
-        margin-top: 3rem;
+        margin-top: 10rem;
     }
     .imagen{
         background-image: url(/images/image-product-mobile.jpg);
